@@ -1,0 +1,9 @@
+extends layout
+
+block content
+    div
+        form(method="post",action='/')#tableForm
+            select(name="selectstations").selectstations
+                each station, i in stations
+                    option(value=station.code) #{station.name}
+            input(type='submit')
