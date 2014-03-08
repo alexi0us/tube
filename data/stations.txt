@@ -1,0 +1,3 @@
+db.district.insert({ "code" : "ACT", "name" : "Acton Town" })
+db.district.insert({ "code" : "ALE", "name" : "Aldgate East" })
+db.district.insert({ "code" : "BKG", "name" : "Barking" })
